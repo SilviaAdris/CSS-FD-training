@@ -1,0 +1,57 @@
+1- The main difference between inline CSS and external CSS is that inline CSS is processed faster as it only requires the browser to download 1 file while using external CSS will require downloading HTML and CSS files separately.
+
+2- ID: Preceded by a ‘#’ symbol
+   Class: Preceded by a ‘.’ symbol
+3- .selector1, selector2 { color: #f00; }
+
+4- #title, .primary {color: red; }
+
+5-  combines two selectors such that elements matched by the second selector are selected if they have an ancestor (parent, parent's parent, parent's parent's parent, etc.) element matching the first selector. Selectors that utilize a descendant combinator are called descendant selectors.
+
+6- The rule that uses one class selector.
+
+7- Content - Padding - Border - Margin.
+
+8- The box-sizing property allows us to include the padding and border in an element's total width and height.
+
+9- If you are using the standard box model, the size of the border is added to the width and height of the content box. If you are using 	the alternative box model then the size of the border makes the content box smaller as it takes up some of that available width and 	height of the element box.
+
+10- I will use margin.
+
+11- I will use padding.
+
+12- you can set margin values to be negative if you want elements to overlap
+
+13- Inline elements occupy only sufficient width required. Block Elements occupy the full width irrespective of their sufficiency. Inline elements don’t start in a new line. Block elements always start in a line. Inline elements allow other inline elements to sit behind. Block elements doesn’t allow other elements to sit behind .
+
+14- the major difference is that inline-block allows to set a width and height on the element.
+
+15- block element.
+
+16- inline element.
+
+17- block element.
+
+18- inline element.
+
+19- Flex Container is the parent element while Flex Item represents the children.
+
+20-  we set the value of the area's container's display property to flex or inline-flex
+	.box {
+            display: flex;
+          }
+21-  flex-grow | flex-shrink | flex-basis
+
+22- we set the following:
+	display: flex;
+	flex-direction: column;
+
+23- justify-content — controls alignment of all items on the main axis. align-items — controls alignment of all items on the cross axis.
+
+24- .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+      
+25- space-around – places items with space distributed evenly around the start and end of the list. space-between – evenly distributes 	space items between the first item is set at the start of the container, and the last item is set at the end.
